@@ -1,5 +1,5 @@
 ---
-## 📚 Lesson #002
+## 📚 Lesson #001
 **Topic:** RAG vs Retriever - Understanding Knowledge-Augmented AI
 **Date:** 2026-01-07
 **Difficulty:** Intermediate

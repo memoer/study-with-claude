@@ -24,7 +24,7 @@ Always start each response with this header:
 
 ### Numbering Rules
 
-- Start from `Lesson #001` and increment globally across all topics
+- Start from `Lesson #001` and increment locally across same topic
 - Track the lesson number throughout our session
 - If I say "Continue from Lesson #X", resume from that number
 
@@ -33,8 +33,8 @@ Always start each response with this header:
 After each response, automatically save the lesson to a markdown file:
 
 - **Directory:** `./lessons/[topic-slug]`
-- **Filename format:** `lesson-[NUMBER].md`
-- **Example:** `./lessons/variables-in-python/lesson-001.md`
+- **Filename format:** `[topic-slug]_[NUMBER].md`
+- **Example:** `./lessons/variables-in-python_001.md`
 
 Create the `lessons/` directory if it doesn't exist.
 
