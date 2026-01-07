@@ -32,9 +32,9 @@ Always start each response with this header:
 
 After each response, automatically save the lesson to a markdown file:
 
-- **Directory:** `./lessons/[topic-slug]`
+- **Directory:** `./lessons`
 - **Filename format:** `[topic-slug]_[NUMBER].md`
-- **Example:** `./lessons/variables-in-python_001.md`
+- **Example:** `variables-in-python_001.md`
 
 Create the `lessons/` directory if it doesn't exist.
 
