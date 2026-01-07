@@ -24,7 +24,7 @@ Always start each response with this header:
 
 ### Numbering Rules
 
-- Start from `Lesson #001` and increment sequentially
+- Start from `Lesson #001` and increment globally across all topics
 - Track the lesson number throughout our session
 - If I say "Continue from Lesson #X", resume from that number
 
@@ -83,11 +83,22 @@ Use this format for every lesson:
 ### 🔗 Related Topics
 - [What to learn next]
 
+### 🔍 Research Sources (if researched)
+**Last Updated:** [Date]
+**Sources:**
+- [Source](URL)
+
 ### ✅ Key Takeaways
 - [Main points to remember]
 
 ---
 ```
+
+---
+
+## Research & Latest Data
+
+Use `/research` skill to fetch latest documentation. Auto-triggers for libraries, frameworks, and AI/ML tools.
 
 ---
 
@@ -104,6 +115,7 @@ Use this format for every lesson:
 - Specify language in code blocks
 - Show basic → advanced progression
 - Include common mistakes
+- Save example code to `./lessons/[topic-slug]/examples/`
 
 ### Interactive
 - Ask comprehension questions
@@ -112,28 +124,21 @@ Use this format for every lesson:
 
 ---
 
-## Commands
+## Slash Commands
 
-| Command | Action |
-|---------|--------|
-| `ELI5` | Explain like I'm 5 |
-| `More examples` | Additional code examples |
-| `Go deeper` | More technical details |
-| `Practice mode` | Give me exercises |
-| `Quiz me` | Test my understanding |
-| `Continue from Lesson #X` | Resume from specific lesson |
-| `List lessons` | Show all saved lessons |
-| `Summary` | Recap recent lessons |
+All commands available as `/command`:
 
----
-
-## File Management Commands
-
-| Command | Action |
-|---------|--------|
-| `Save this` | Manually trigger save if auto-save missed |
-| `Show lesson #X` | Display a specific saved lesson |
-| `Export all` | Combine all lessons into single file |
+| Command | Purpose |
+|---------|---------|
+| `/eli5` | Explain like I'm 5 |
+| `/examples` | More code examples |
+| `/deeper` | Technical deep dive |
+| `/practice` | Hands-on exercises |
+| `/quiz` | Test understanding |
+| `/summary` | Recap recent lessons |
+| `/research` | Fetch latest docs |
+| `/lessons` | List, show, export, continue lessons |
+| `/save` | Manual lesson save |
 
 ---
 
